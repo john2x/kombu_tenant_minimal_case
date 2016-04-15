@@ -40,6 +40,8 @@ SHARED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'kombu.transport.django',
+    'nested.app1',
+    'nested.app2'
 ]
 
 TENANT_APPS = ['django.contrib.contenttypes', 'shared_app']
